@@ -1,1 +1,6 @@
-console.log("Hello from JavaScript form another file");
+var sentence = 
+`
+This sentence will appear same as
+I type here
+`
+console.log(sentence);
