@@ -8,6 +8,8 @@
         c: 3,
         e : 5
     }
-    cost{a,b,c,d,e} = obj;
+    cost{a,b,c,d,e} = obj; 
+    ({a,b,,c,e}= obj);
     //print variables
     console.log(a);
+    console.log(d);// Undefined

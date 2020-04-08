@@ -1,11 +1,10 @@
-/*  Arrow notation*/
+/**     Arrow Notation       */
 
-//Normal function
-const f1 = function(name)
-{
-    return 'Hi ${name}';
+
+// Example
+
+const f1 = funciton(){
+    return 'This is  a function';
 }
 
- // Using Arrow Functino
- const f1 = name => 'Hi ${name}'  //Same thing
-
+const f1() => "This is arrow";
