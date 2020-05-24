@@ -1,0 +1,32 @@
+<html>
+    <head><title>QSA</title></head>
+    <body>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        List 2:
+        <ul class='list-2'>
+            <li class='.red'>Item 1</li>
+            <li class='green'>Item 2</li>
+            <li class='blue'>Item 3</li>
+        </ul>
+    </body>
+    <script>
+        const list2 = document.querySelector('.list-2')
+
+        // Can be applied to another query Selector
+        const items = list2.querySelectorAll('li'); // Select all the li of list-2
+        // Returns a list of li
+                        
+        //Looping through boxes
+        items.forEach((e, i) => {
+            e.style.color = `red`;
+        });
+
+
+
+
+    </script>
+</html>

@@ -9,5 +9,5 @@ console.log(person.age);// To access the element age
 
 // Bracket Notation
 let selection = 'name';
-person[selection] = 'Changed';
+person[selection] = 'Changed'; //Needs to be string
 console.log(person.name);

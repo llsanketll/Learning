@@ -1,5 +1,5 @@
 //Primitive Types
-let name = 'Sanket Lamsal' // String
+let name = 'Sanket Lamsal' // String Literal
 let age = 19; //Number Literal
 let isApproved = false; // Boolean Literal
 let firstName = undefined;
